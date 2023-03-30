@@ -1,4 +1,4 @@
-import `Two-Fer`.comportamento.TwoFer
+import `I_Two-Fer`.comportamento.TwoFer
 import java.util.*
 
 private val scanner = Scanner(System.`in`)

@@ -1,4 +1,4 @@
-package `Ajuste-Salarial`;
+package `III_Ajuste-Salarial`;
 
 import AjusteSalarial
 
