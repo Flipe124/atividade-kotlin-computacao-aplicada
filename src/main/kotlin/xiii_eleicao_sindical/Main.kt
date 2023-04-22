@@ -1,7 +1,7 @@
 package xiii_eleicao_sindical
 
-import xiii_eleicao_sindical.eleicao.Vote
+import xiii_eleicao_sindical.election.Election
 
 fun main() {
-    Vote.run()
+    Election.run()
 }

@@ -1,6 +1,6 @@
-package xiii_eleicao_sindical.eleicao.cli
+package xiii_eleicao_sindical.election.cli
 
-import xiii_eleicao_sindical.eleicao.core.Vote
+import xiii_eleicao_sindical.election.core.Vote
 import java.util.*
 
 private const val DEFAULT_VALUE_INT = 0

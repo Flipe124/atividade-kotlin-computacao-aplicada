@@ -1,4 +1,4 @@
-package xiii_eleicao_sindical.eleicao.warning
+package xiii_eleicao_sindical.election.warning
 
 class Warning {
 

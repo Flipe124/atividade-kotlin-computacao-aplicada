@@ -1,12 +1,12 @@
-package xiii_eleicao_sindical.eleicao
+package xiii_eleicao_sindical.election
 
-import xiii_eleicao_sindical.eleicao.cli.Terminal
+import xiii_eleicao_sindical.election.cli.Terminal
 
 private const val LABEL_MESSAGE_MAIN = "***** Union Selection! *****"
 private const val LABEL_MESSAGE_CANDIDATES = "The candidates are:"
 private const val LABEL_MESSAGE_RESULT = "The result are:"
 
-object Vote {
+object Election {
 
     fun run() {
 

@@ -1,6 +1,6 @@
-package xiii_eleicao_sindical.eleicao.core
+package xiii_eleicao_sindical.election.core
 
-import xiii_eleicao_sindical.eleicao.warning.Warning
+import xiii_eleicao_sindical.election.warning.Warning
 
 private const val DEFAULT_VALUE_STRING = ""
 
