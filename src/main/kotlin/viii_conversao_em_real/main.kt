@@ -1,4 +1,4 @@
-package VIII_Conversao_em_Real
+package viii_conversao_em_real
 import java.util.*;
 
 private var scanner = Scanner(System. `in`);

@@ -1,4 +1,4 @@
-package X_Soma_dos_Quadrados
+package xi_quadrado_da_soma
 
 import java.util.*;
 private var scanner = Scanner(System. `in`);
@@ -18,7 +18,8 @@ fun main() {
     println("Informe o 3° valor: ");
     quadrado3 = scanner.nextInt();
 
-    soma = (quadrado1*quadrado1) + (quadrado2*quadrado2) + (quadrado3*quadrado3);
+    soma = quadrado1 + quadrado2 + quadrado3;
+    soma = soma * soma;
 
     println("Soma dos quadrados: " + soma);
 }

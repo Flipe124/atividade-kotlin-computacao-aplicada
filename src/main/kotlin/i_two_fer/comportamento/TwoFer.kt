@@ -1,4 +1,4 @@
-package I_Two_Fer.comportamento
+package i_two_fer.comportamento
 
 fun TwoFer(nome : String): String {
     var frase = "";

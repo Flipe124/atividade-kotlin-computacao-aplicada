@@ -1,4 +1,4 @@
-package IX_Conversao_em_dolar
+package ix_conversao_em_dolar
 
 import java.util.*;
 

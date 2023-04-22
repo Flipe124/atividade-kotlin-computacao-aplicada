@@ -1,4 +1,4 @@
-package VI_Salario_Liquido_Professor
+package vi_salario_liquido_professor
 
 import java.util.*
 

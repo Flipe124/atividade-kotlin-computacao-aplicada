@@ -1,4 +1,4 @@
-package VI_Salario_Liquido_Professor
+package vi_salario_liquido_professor
 
 fun calcular(valor_hora: Double, hora_trabalhada : Double, desconto : Double ): String {
     var resultado_bruto = 0.0;
