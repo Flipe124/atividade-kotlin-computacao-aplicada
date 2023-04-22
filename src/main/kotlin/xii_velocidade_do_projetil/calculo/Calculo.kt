@@ -17,10 +17,10 @@ object Calculo {
 
         println(LABEL_MENSAGEM_PRINCIPAL)
 
-        print(LABEL_MENSAGEM_QUILOMETROS + ": ")
+        print("$LABEL_MENSAGEM_QUILOMETROS: ")
         val quilometros = scanner.nextDouble()
 
-        print(LABEL_MENSAGEM_MINUTOS + ": ")
+        print("$LABEL_MENSAGEM_MINUTOS: ")
         val minutos = scanner.nextDouble()
 
         val calculo = Calculo(quilometros, minutos)
