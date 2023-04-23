@@ -2,6 +2,7 @@ package xiv_media_do_aluno.media
 
 import xiv_media_do_aluno.media.cli.Terminal
 import xiv_media_do_aluno.media.core.Media
+import java.text.DecimalFormat
 
 private const val MESSAGE_MAIN = "***** School Average Calculator! *****"
 private const val MESSAGE_ENGAGE = "Enter the student's four bimonthly grades:"
@@ -29,7 +30,7 @@ object Media {
             println(MESSAGE_DISAPPROVED)
         }
 
-        println("$MESSAGE_AVERAGE $average")
+        println("$MESSAGE_AVERAGE ${DecimalFormat("#.##").format(average)}")
 
     }
 
