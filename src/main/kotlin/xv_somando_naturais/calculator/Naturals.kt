@@ -1,4 +1,4 @@
-package xv_somando_naturais.calculadora
+package xv_somando_naturais.calculator
 
 private const val DEFAULT_VALUE_INT = 0
 private const val MESSAGE_MAIN = "***** Summing the Natural Numbers! *****"
