@@ -11,9 +11,9 @@ private const val LABEL_UNIDADE_MEDIDA_MPM = "MpM"
 
 object Calculo {
 
-    fun run() {
+    private val scanner = Scanner(System.`in`)
 
-        val scanner = Scanner(System.`in`)
+    fun run() {
 
         println(LABEL_MENSAGEM_PRINCIPAL)
 

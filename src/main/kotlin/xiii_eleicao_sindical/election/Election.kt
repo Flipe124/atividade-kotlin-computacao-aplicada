@@ -8,10 +8,10 @@ private const val LABEL_MESSAGE_RESULT = "The result are:"
 
 object Election {
 
-    fun run() {
+    private val terminal = Terminal()
+    private val candidates = arrayOf("A", "B", "C")
 
-        val terminal = Terminal()
-        val candidates = arrayOf("A", "B", "C")
+    fun run() {
 
         println(LABEL_MESSAGE_MAIN)
         println(LABEL_MESSAGE_CANDIDATES)

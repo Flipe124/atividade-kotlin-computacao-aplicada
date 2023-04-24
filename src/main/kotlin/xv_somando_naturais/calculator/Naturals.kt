@@ -7,10 +7,11 @@ private const val MESSAGE_FINAL = "Total sum:"
 
 object Naturals {
 
+    private var total = DEFAULT_VALUE_INT
+
     fun run() {
 
         val naturalNumbers = arrayListOf<Int>()
-        var total = DEFAULT_VALUE_INT
 
         println(MESSAGE_MAIN)
         println(MESSAGE_DESCRIBE)

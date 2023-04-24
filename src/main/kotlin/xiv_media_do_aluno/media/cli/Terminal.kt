@@ -10,7 +10,6 @@ class Terminal {
 
     private val scanner = Scanner(System.`in`)
     private val notes = arrayListOf<Double>()
-    private var answer = DEFAULT_VALUE_DOUBLE
 
     fun getNotes(): ArrayList<Double> {
 
@@ -19,8 +18,7 @@ class Terminal {
             while (flagStay) {
                 print("$index) ")
                 try {
-                    answer = scanner.nextDouble()
-                    notes.add(answer)
+                    notes.add(scanner.nextDouble())
                     flagStay = false
                 } catch (exception: InputMismatchException) {
                     println(MESSAGE_EXCEPTION_INPUT_MISMATCH)

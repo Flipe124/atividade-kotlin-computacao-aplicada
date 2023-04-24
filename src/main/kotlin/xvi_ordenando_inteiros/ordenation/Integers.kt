@@ -7,9 +7,9 @@ private const val MESSAGE_FINAL = "Items in descending order are:"
 
 object Integers {
 
-    fun run() {
+    private val terminal = Terminal()
 
-        val terminal = Terminal()
+    fun run() {
 
         println(MESSAGE_MAIN)
 

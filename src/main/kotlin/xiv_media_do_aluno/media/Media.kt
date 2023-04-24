@@ -12,10 +12,10 @@ private const val MESSAGE_AVERAGE = "Average grade:"
 
 object Media {
 
-    fun run() {
+    private val terminal = Terminal()
+    private val media = Media()
 
-        val terminal = Terminal()
-        val media = Media()
+    fun run() {
 
         println(MESSAGE_MAIN)
         println(MESSAGE_ENGAGE)

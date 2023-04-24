@@ -9,10 +9,10 @@ private const val LABEL_IS_NOT = "is not"
 
 object Palindrome {
 
-    fun run() {
+    private val terminal = Terminal()
+    private val palindrome = Palindrome()
 
-        val terminal = Terminal()
-        val palindrome = Palindrome()
+    fun run() {
 
         println(MESSAGE_MAIN)
         val answer = terminal.readInput()
